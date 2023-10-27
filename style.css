@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #363636;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+
+label {
+    color: #d4d0d0;
+}
+
+.book-form, .book-list {
+    background-color: #2b2a2a;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #5c5b5b;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+input[type="text"], textarea{
+    outline: none;
+    background-color: #363636;
+    width: 100%;
+    padding: 0.3%;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 1px solid #8b00d4; /* Adicione a borda inferior roxa */
+    border-radius: 0; /* Remova o arredondamento da borda */
+    color: #ffffff; /* Defina a cor do texto como branca */
+}
+
+textarea {
+    border: 1px solid #8b00d4; /* Adicione a borda roxa ao textarea */
+    border-radius: 3px;
+}
+
+button {
+    background-color: #8b00d4;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.book-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.book-list li {
+    color: #ffffff;
+    background-color: #8b00d4;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #3b3b3b;
+    border-radius: 3px;
+}
